@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de filmes para assistir</title>
+
+    <link rel="stylesheet" href="./src/notie-master/dist/notie.min.css">
+
     <link rel="stylesheet" href="./static/css/style.css" />
     <link
       rel="stylesheet"
@@ -32,37 +35,12 @@
       <section id="movie-list"></section>
       <article id="modal-overlay" class="overlay">
         <section id="modal-background"></section>
-        <section id="modal-container">
-          <h2 id="movie-title">The Godfather - 1972</h2>
-          <section id="modal-body">
-            <img
-              id="movie-poster"
-              src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-              alt="Poster do Filme."
-            />
-            <div id="movie-info">
-              <h3 id="movie-plot">
-                The aging patriarch of an organized crime dynasty in postwar New
-                York City transfers control of his clandestine empire to his
-                reluctant youngest son.
-              </h3>
-              <div id="movie-cast">
-                <h4>Elenco:</h4>
-                <h5>Marlon Brando, Al Pacino, James Caan</h5>
-              </div>
-              <div id="movie-genre">
-                <h4>Gênero:</h4>
-                <h5>Crime, Drama</h5>
-              </div>
-            </div>
-          </section>
-          <section id="modal-footer">
-            <button id="add-to-list">Adicionar à Lista</button>
-          </section>
-        </section>
+        <section id="modal-container"></section>
       </article>
     </main>
+    <script src="./src/notie-master/dist/notie.min.js"></script>
      <script src="./static/js/script.js"></script>
       <script src="./static/js/modal.js"></script>
+      <script src="./static/js/key.js"></script>
   </body>
 </html>
