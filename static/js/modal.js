@@ -10,7 +10,7 @@ function backgroundClickHandler() {
 
 function createModal(data) {
   modalContainer.innerHTML = `
-  <h2 id="movie-title">${data.Title} - ${data.Year}/h2>
+  <h2 id="movie-title">${data.Title} - ${data.Year}</h2> <!-- Missing closing </h2> tag -->
   <section id="modal-body">
     <img
       id="movie-poster"
@@ -19,7 +19,7 @@ function createModal(data) {
     />
     <div id="movie-info">
       <h3 id="movie-plot">
-       ${data.Plot}
+        ${data.Plot}
       </h3>
       <div id="movie-cast">
         <h4>Elenco:</h4>
