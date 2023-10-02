@@ -1,1 +1,1 @@
-const key = "3478f969";
+const key = "chave-de-acesso";
