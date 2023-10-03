@@ -1,1 +1,1 @@
-const key = "chave";
+const key = "";
